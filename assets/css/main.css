@@ -12,8 +12,7 @@
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
-	--default-font: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto,
-		"Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+	--default-font: "Roboto", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
 		"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 	--heading-font: "Raleway", sans-serif;
 	--nav-font: "Poppins", sans-serif;
@@ -494,8 +493,7 @@ h6 {
 
 .footer .copyright {
 	padding-top: 25px;
-	border-top: 1px solid
-		color-mix(in srgb, var(--default-color), transparent 90%);
+	border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
 }
 
 .footer .credits {
@@ -593,8 +591,7 @@ h6 {
 
 .page-title .heading {
 	padding: 160px 0 80px 0;
-	border-top: 1px solid
-		color-mix(in srgb, var(--default-color), transparent 90%);
+	border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
 }
 
 .page-title .heading h1 {
@@ -1102,20 +1099,14 @@ section,
 	position: relative;
 }
 
-.portfolio-details
-	.portfolio-details-slider
-	.swiper-pagination
-	.swiper-pagination-bullet {
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
 	width: 12px;
 	height: 12px;
 	background-color: color-mix(in srgb, var(--default-color), transparent 85%);
 	opacity: 1;
 }
 
-.portfolio-details
-	.portfolio-details-slider
-	.swiper-pagination
-	.swiper-pagination-bullet-active {
+.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
 	background-color: var(--accent-color);
 }
 
@@ -1130,8 +1121,7 @@ section,
 	font-weight: 700;
 	margin-bottom: 20px;
 	padding-bottom: 20px;
-	border-bottom: 1px solid
-		color-mix(in srgb, var(--default-color), transparent 85%);
+	border-bottom: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
 }
 
 .portfolio-details .portfolio-info ul {
@@ -1200,6 +1190,7 @@ section,
 	margin: 4px 6px 0 0;
 	transition: 0.3s;
 	color: color-mix(in srgb, var(--default-color), transparent 50%);
+	margin-right: 10px;
 }
 
 .contact .info-item .social-links a:hover {
@@ -1222,11 +1213,7 @@ section,
 .contact .php-email-form input[type="email"],
 .contact .php-email-form textarea {
 	color: var(--default-color);
-	background-color: color-mix(
-		in srgb,
-		var(--background-color),
-		transparent 50%
-	);
+	background-color: color-mix(in srgb, var(--background-color), transparent 50%);
 	border-color: color-mix(in srgb, var(--default-color), transparent 80%);
 	font-size: 14px;
 	padding: 10px 15px;
